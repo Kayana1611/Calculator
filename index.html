@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculette</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <h1>Calculatrice</h1>
+    <div id="container">
+        <div class="parent">
+            <div class="Calculatrice"></div>
+            <div class="Zone"> 
+                <input id="Zone" type="text">
+            </div>
+            <div class="Supprimer">
+                <button id="btnSup" onclick="efface()">C</button>    
+            </div>
+            <div class="un"> 
+                <button id="btn1" onclick="affiche(1)">1 </button>
+            </div>
+            <div class="deux"> 
+                <button id="btn2" onclick="affiche(2)">2</button> 
+            </div>
+            <div class="trois"> 
+                <button id="btn3" onclick="affiche(3)">3</button> 
+            </div>
+            <div class="diviser"> 
+                <button id="btnDiv" onclick="affiche('/')">/</button> 
+            </div>
+            <div class="quatre"> 
+                <button id="btn4" onclick="affiche(4)">4</button> 
+            </div>
+            <div class="cinq"> 
+                <button id="btn5" onclick="affiche(5)">5</button> 
+            </div>
+            <div class="six"> 
+                <button id="btn6" onclick="affiche(6)">6</button>
+             </div>
+            <div class="moins"> 
+                <button id="btnMoins" onclick="affiche('-')">-</button>
+             </div>
+            <div class="sept"> 
+                <button id="btn7" onclick="affiche(7)"> 7 </button> 
+            </div>
+            <div class="huit"> 
+                <button id="btn8" onclick="affiche(8)">8</button>    
+            </div>
+            <div class="neuf"> 
+                <button id="btn9" onclick="affiche(9)">9</button> 
+            </div>
+            <div class="plus"> 
+                <button id="btnPlus" onclick="affiche('+')">+</button>
+            </div>
+            <div class="point"> 
+                <button id="btnPoint" onclick="affiche('.')">.</button> 
+            </div>
+            <div class="zero">
+                <button id="btnZero" onclick="affiche(0)">0</button>
+            </div>
+            <div class="egal"> 
+                <button id="btnEgal"onclick="resultat()">=</button>
+            </div>
+            <div class="multiplier"> 
+                <button id="btnMulti" onclick="affiche('*')">*</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
